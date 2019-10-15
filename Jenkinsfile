@@ -1,5 +1,5 @@
 pipeline {
-  agent non
+  agent none
   stages {
     stage('Test') {
       agent { label 'nodejs-app' }
